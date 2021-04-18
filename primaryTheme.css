@@ -1,0 +1,145 @@
+body {
+    margin: 0
+}
+
+.imgPerfil {
+    position: absolute;
+    left: 63px;
+    top: 25px;
+}
+
+.espaco-informacoes {
+    margin-top: 250px;
+}
+
+.caixa-informacao {
+    width: 358px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    border: 3px solid #313131;
+    position: absolute;
+    /*Para ficar por cima de tudo*/
+    left: 259px;
+    top: 38px;
+    background: white;
+    z-index: 5;
+    /*Garantir maior ordem no absolute*/
+}
+
+.caixa-informacao h1 {
+    margin: 0;
+    font-family: monospace;
+}
+
+.caixa-informacao h2 {
+    margin: 0;
+    font-weight: 200;
+    font-size: larger;
+    font-family: monospace;
+}
+
+legend {
+    text-transform: uppercase;
+}
+
+.icone {
+    width: 20px;
+    height: 20px;
+    bottom: 20px;
+}
+
+.icone-download {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast;
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 10px;
+    word-break: break-word;
+}
+
+img {
+    border-radius: 50%;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+}
+
+#linha {
+    width: 100%;
+    border-bottom: 1px solid #111111;
+}
+
+.barra-30 p,
+.barra-30 h2 {
+    left: 10px;
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 10px;
+    word-break: break-word;
+}
+
+.barra-30 b {
+    left: 20px;
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 10px;
+    word-break: break-word;
+}
+
+hr {
+    border-color: #aaa;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.linha {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.divp-normal-50 {
+    width: 50%;
+}
+
+.colunaM-50 {
+    width: 70%;
+    margin-top: 160px;
+}
+
+.colunaM-50 p,
+.colunaM-50 b,
+.colunaM-50 h2 {
+    margin-left: 10px;
+}
+
+.barra-30 {
+    width: 25%;
+    background-color: lightgray;
+}
+
+.align_center {
+    text-align: center;
+}
+
+.align_left {
+    text-align: left;
+}
+
+.espaco-principal {
+    width: 5%;
+}
+
+.button {
+    align: center;
+}
+
+.addDownload {
+    left: 400px;
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 10px;
+    word-break: break-word;
+}
